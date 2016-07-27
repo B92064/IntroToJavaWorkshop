@@ -13,7 +13,7 @@ public class RobotIntro {
 			
 		}
 		int Hexagon = 0;
-		while(Hexagon<6){
+		while(Hexagon<8){
 			Brandon.turn(45);
 			Brandon.move(100);
 			Hexagon = Hexagon + 1;

@@ -30,7 +30,7 @@ for (int i = 0; i < 200; i++) {
 			// 6. Turn the robot the amount in your angle variable
 	Q.turn(E);
 			// 11. Turn the robot one more degree
-	Q.turn(5);
+	Q.turn(W);
 }
 	}
 
