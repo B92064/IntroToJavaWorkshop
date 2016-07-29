@@ -59,7 +59,7 @@ if(intersects( x,  y,  paddleX,  paddleY,  paddleLength)){
 speedup = speedup /-1;
 
 }
-if(intersects( x2,  50,  pX2, pY2,  paddleLenght)){
+if(intersects( x2,  50,  pX2, pY2,  paddleLength)){
 speedup = speedup *-1;
 
 }
@@ -121,3 +121,4 @@ return true;
 else 
 return false;
 }
+
