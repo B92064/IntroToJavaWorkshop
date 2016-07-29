@@ -13,11 +13,13 @@ int x2 = 200;
 int pX2 = x2;
 int pY2 = 50;
 int paddleWidth = 200;
+int t = 50;
 void setup(){
   size(800, 800);
   
 }
 void draw(){
+  pX2 = x2;
   if(keyPressed){
    if(key == 'a'){
      x2= x2- 10 ;
@@ -59,8 +61,8 @@ if(intersects( x,  y,  paddleX,  paddleY,  paddleLength)){
 speedup = speedup /-1;
 
 }
-if(intersects( x2,  50,  pX2, pY2,  paddleLength)){
-speedup = speedup *-1;
+if(intersects( x2,  t,  pX2, pY2,  paddleWidth)){
+speedup = speedup /-1;
 
 }
 /*1.Make a canvas for your game.
